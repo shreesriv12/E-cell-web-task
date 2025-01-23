@@ -3,7 +3,11 @@ import "./aboutme.css"
 import { Link } from 'react-router-dom'
 const SecondPage = () => {
   return (
+    <div className='b-black h-screen'>
        <div className="portfolio-container">
+        <div className='navlist'>
+            
+        </div>
         <div className="left-container">
             <div className="content">
                 <p className="intro"><span>Shreeya Srivastava</span></p>
@@ -20,6 +24,7 @@ const SecondPage = () => {
             <div className="circle"></div>
             <div className="circle"></div>
         </div>
+    </div>
     </div>
   )
 }

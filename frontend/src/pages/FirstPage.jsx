@@ -81,7 +81,7 @@ const FirstPage = () => {
         </div>
       </nav>
 
-      <div className="flex space-x-20 mt-20 ">
+      <div className="flex flex-wrap space-x-24 mt-20 ">
         <div className="w-80 h-80 style={{
     boxShadow: '10px 10px 30px rgba(181, 183, 169, 0.75)' 
   }} bg-gradient-to-br from-blue-500 via-purple-500 to-pink-600 text-white rounded flex items-center justify-center rounded-lg">
@@ -94,7 +94,7 @@ const FirstPage = () => {
   style={{
     boxShadow: 'inset 0 0 1rem rgb(157, 163, 176)'
   }}>
-     <div className="flex flex-wrap gap-6 mt-2 mb-2">
+     <div className="flex flex-wrap gap-6 mt-2 mb-2 ml-2 mr-2">
       <div className={`w-20 h-20  ${active1?'bg-blue-900':'bg-red-900'} border border-gray-300 rounded-xl`} onClick={handleClick1}></div>
       <div className={`w-20 h-20  ${active2?'bg-blue-900':'bg-red-900'} border border-gray-300 rounded-xl`} onClick={handleClick2}></div>
       <div className={`w-20 h-20  ${active3?'bg-blue-900':'bg-red-900'} border border-gray-300 rounded-xl`} onClick={handleClick3}></div>
